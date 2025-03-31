@@ -1,5 +1,5 @@
 var authorization = "Bearer ***"; // replace by authorization value
-var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
+var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');aaa
 var client_tid = "***"; // replace by X-Client-Transaction-Id value
 var client_uuid = "***"; // replace by X-Client-Uuid value
 var csrf_token = getCookie("ct0");
